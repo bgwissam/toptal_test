@@ -1,13 +1,13 @@
 class Toptal {
     public static void main(String[] args) {
-        testThree();
+        testOne();
     }
 
     public static void testOne() {
         TestOne test = new TestOne();
         String[] T = { "test1a", "test2", "test1b", "test1c", "test3" };
 
-        String[] R = { "Wrong Answer", "Ok", "RunTime Error", "Ok", "Time Limit Exceeded" };
+        String[] R = { "Wrong Answer", "Ok", "Ok", "Ok", "Time Limit Exceeded" };
         test.solution(T, R);
 
     }
